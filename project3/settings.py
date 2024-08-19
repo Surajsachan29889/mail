@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'project3.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gmail_ubj7',    
+        'USER': 'gmail_ubj7_user',      
+        'PASSWORD': '8kpXv4SX6iyBUlqNckTrCxtQmvVHCHkb',
+        'HOST': 'dpg-cr1la6lumphs73afem7g-a.oregon-postgres.render.com',     
+        'PORT': '5432',    
     }
 }
 
